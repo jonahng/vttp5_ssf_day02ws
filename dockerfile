@@ -33,5 +33,5 @@ ENV SERVER_PORT 3000
 
 EXPOSE ${SERVER_PORT}
 
-ENTRYPOINT SERVER_PORT=${SERVER_PORT} java -jar target/vttp5_ssf_day02w-0.0.1-SNAPSHOT.jar
+ENTRYPOINT SERVER_PORT=${SERVER_PORT} java -jar target/vttp5_ssf_day02ws-0.0.1-SNAPSHOT.jar
 #NAME comes from the pom.xml artifact id - version .jar
