@@ -1,12 +1,5 @@
 FROM eclipse-temurin:23-jdk
 
-
-
-
-
-
-
-
 LABEL MAINTAINER ="jonahng"
 LABEL description ="This is vttp5 ssf day 3 lecture demo for dockerization"
 LABEL name="vttp5_ssf_day02ws"

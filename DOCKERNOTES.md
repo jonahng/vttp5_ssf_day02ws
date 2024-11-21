@@ -11,11 +11,12 @@ Run the image inside container
 5. docker container -d -t -p 8080:3000 vttp5a-ssf-day13l:0.01
 8080 is the port on the computer, 3000 is the port in the program/server that the real computer port will link to. so browser 8080 will access the 
 
-
+## Important commands
 //this is to remove cached docker builds
 docker system prune
 
-
+docker build -t jonahng/vttp5-ssf-day02ws:v.0.0.1 .
+docker run -d -p 8080:3000 jonahng/vttp5-ssf-day02ws:v.0.0.1
 
 
 
